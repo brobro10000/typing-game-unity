@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1451490856453650}
+  m_IsPrefabParent: 1
+--- !u!1 &1451490856453650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4373049972457236}
+  - component: {fileID: 114367277583769600}
+  m_Layer: 0
+  m_Name: Default Sequence Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4373049972457236
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451490856453650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0380163, y: -11.476028, z: 0.46669674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114367277583769600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451490856453650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a75ad87337873f45a1c69d43f931c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceScaleSettings:
+    baseDistance: 10
+    largestScale: 1
+    smallestScale: 0.5
+  overlapAvoidanceSetting:
+    avoidanceStrength: 100
+    overlapReluctance: 1
+  restrictToParent: 1
+  softMovementSettings:
+    moveSpeed: 100
+  useDistanceScaling: 0
+  useOverlapAvoidance: 1
+  useSoftMovement: 0
+  completedTextDisplayMode: 0
+  replaceSpaceWithInterpunct: 1
+  targetedConfiguration:
+    backgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    backgroundSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    completedTextColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  untargetedConfiguration:
+    backgroundColor: {r: 0.8455882, g: 0.8455882, b: 0.8455882, a: 1}
+    backgroundSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    completedTextColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    textColor: {r: 0, g: 0, b: 0, a: 1}
